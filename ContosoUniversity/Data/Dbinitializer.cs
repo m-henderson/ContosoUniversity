@@ -13,6 +13,7 @@ namespace ContosoUniversity.Data
             // Look for any students.
             if (context.Students.Any())
             {
+                
                 return;   // DB has been seeded
             }
 
